@@ -41,6 +41,11 @@
       a {
         color: #03a9f4;
       }
+	.monospace {
+		background-color: lightgray;
+		font-family: 'Courier New', monospace;
+		padding: 1em;
+	}
       .invisible {
         visibility: hidden;
 	background-color: #d2e0e7;
@@ -96,6 +101,7 @@
     <div class="content">
       <h1>Lightning Piggy Web Installer</h1>
       <p>This easy and intuitive web installer allows anyone to easily and repeatably build a Lightning Piggy for themselves, using only the browser.</p>
+      <p>If something doesn't work, take a look at the <a href="#troubleshooting">troubleshooting</a> instructions, or make a few screenshots and contact support.</p>
       <h2>Step 1</h2>
       <p>Connect your Lightning Piggy to your PC with a USB cable.</p>
       <p>Make sure it's a regular cable that supports data and power, not just power, as we'll need to send data.</p>
@@ -130,10 +136,30 @@
       <h2>Step 5</h2>
       <p>Wait and watch the installation progress!</p>
 	<img src="/static/installing_70p.png" alt="Wait and watch the installation progress"/>
-      <p>Don't unplug your Piggy while it's installing as that might lead to it not starting up anymore.</p>
-      <p>If something doesn't work, take a look at the troubleshooting instructions, or make a few screenshots and contact support.</p>
-      <div class="footer">
-        <a href="https://wwww.lightningpiggy.com">Lightning Piggy</a> &mdash; Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
+      <p>Don't unplug your Lightning Piggy while it's installing as that might lead to it not starting up anymore.</p>
+      <h2>Step 6</h2>
+      <p>You'll get confirmation when the installation is complete.</p>
+	<img src="/static/installation_complete.png" alt="Installation complete."/>
+      <h2 id="troubleshooting">Troubleshooting</h2>
+	<h3>Permissions</h3>
+		<p>If your webbrowser is unable to access your computer's serial port, you'll get an error like "Failed to open serial port":</p>
+		<img src="/static/failed_to_open_serial_port.png" alt="Failed to open serial port"/>
+		<p>On Linux and MacOS computers, you can fix this by running a command that (temporarily) gives all users access to it. Something like:</p>
+		<p class="monospace">sudo chmod 777 /dev/ttyUSB*</p>
+	<h3>Checking Lightning Piggy's logs</h3>
+		<p>You can view and download the serial port logs to see what your Lightning Piggy is doing behind the scenes while it's starting up.</p>
+		<p>To do so, click "Logs and Console" and perhaps push the reset button on your Lightning Piggy to do a fresh startup.</p>
+		<img src="/static/logs_and_console.png" alt="Logs and console"/>
+		<p>There's a "Download Logs" button that will let you download them so you can include them when you're reporting an issue or asking for help.</p>
+		<p>The default filename is "esp-web-tools-logs.txt" because that's what's used to install the firmware.</p>
+		<img src="/static/download_logs.png" alt="Logs and console"/>
+	<h3>Checking your webbrowser's logs</h3>
+		<p>You can view and download the logs (called "console") of your web browser by pressing <em>F12</em> or <em>CTRL+SHIFT+i</em> to bring up the Developer Tools.</p>
+		<p>On the tab "Console" you can see what the installer is doing in the background. These details can help pinpoint an issue.</p>
+		<img src="/static/browser_console.png" alt="Browser console"/>
+		<p>Errors about "Improv Wi-Fi Serial" are normal, as the Lightning Piggy doesn't support nor need Improv Wi-Fi at the moment.</p>
+	<div class="footer">
+	<a href="https://wwww.lightningpiggy.com">Lightning Piggy</a> &mdash; Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
     </div>
   </body>
 </html>

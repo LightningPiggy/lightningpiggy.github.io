@@ -1,1 +1,133 @@
-It works!
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lightning Piggy Web Installer</title>
+    <meta
+      name="description"
+      content="Easily allow users to install Lightning Piggy firmware on the web."
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="color-scheme" content="dark light" />
+    <style>
+	:root {
+	    --color-primary-text: #333;
+	    --color-secondary-text: #999;
+	    --color-white: #fff;
+	    --color-lighter-gray: #f6f6f6;
+	    --color-light-gray: #e6e6e6;
+	    --color-mid-gray: #ccc;
+	    --color-dark-gray: #444;
+	    --color-darker-gray: #15171a;
+	    --color-black: #000;
+	    --font-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
+	    --font-serif: Georgia, serif; /* stylelint-disable-line value-keyword-case */
+	    --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; /* stylelint-disable-line value-keyword-case */
+	    --head-nav-gap: 2.8rem;
+	    --h1-size: 4.6rem;
+	    --gap: 3.6rem;
+	}
+      body {
+	font-family: var(--font-sans);
+	color: var(--color-primary-text);
+        padding: 0;
+        margin: 0;
+      }
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 12px;
+      }
+      a {
+        color: #03a9f4;
+      }
+      .invisible {
+        visibility: hidden;
+	background-color: #d2e0e7;
+      }
+      .hidden {
+        display: none;
+      }
+      esp-web-install-button[install-unsupported] {
+        visibility: inherit;
+      }
+      .content pre {
+        max-width: 100%;
+        overflow-y: scroll;
+      }
+      .footer {
+        margin-top: 24px;
+        border-top: 1px solid #ccc;
+        padding-top: 24px;
+        text-align: center;
+      }
+      .footer .initiative {
+        font-style: italic;
+        margin-top: 16px;
+      }
+
+    .form-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 3em;
+    }
+
+    .form-column.left {
+      flex-basis: 30%;
+    }
+    .form-column.right {
+      flex-basis: 70%;
+    }
+
+    .form-column label {
+      display: block;
+      margin-bottom: 1em;
+    }
+
+    .form-column input {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+
+    </style>
+    <script type="module" src="/dist/webumd/install-button.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Lightning Piggy Web Installer</h1>
+      <p>This easy and intuitive web installer allows anyone to easily and repeatably build a Lightning Piggy for themselves, using only the browser.</p>
+      <h2>Step 1</h2>
+      <p>Connect your Lightning Piggy to your PC with a USB cable.</p>
+      <p>Make sure it's a regular cable that supports data and power, not just power, as we'll need to send data.</p>
+      <p>The power light of the Lightning Piggy should turn on, indicting that it's started.</p>
+      <h2>Step 2</h2>
+      <p>Fill in the configuration details so your Lightning Piggy knows which network to connect to and which servers to use:</p>
+	<div class="form-container">
+		<div class="form-column left">
+			<label for="wifissid">Wireless Network Name</label>
+			<label for="wifikey">Wireless Network Password</label>
+			<label for="lnbitshost">LNBits Server Name</label>
+			<label for="lnbitskey">LNBits Invoice/Ready Key</label>
+		</div>
+		<div class="form-column right">
+			<input required type="text" id="wifissid" name="wifissid" placeholder="Wifi SSID"/><br/>
+			<input required type="text" id="wifikey" name="wifikey" placeholder="Wifi Key"/><br/>
+			<input required type="text" id="lnbitshost" name="lnbitshost" placeholder="legend.lnbits.com"/><br/>
+			<input required type="text" id="lnbitskey" name="lnbitskey" placeholder="Find it under 'API docs' on your LNBits Wallet webpage."/><br/>
+		</div>
+	</div>
+      <p class="button-row" align="center">
+        <esp-web-install-button manifest="manifests/manifest_ttgo_lilygo_2.66_inch_epaper.json"></esp-web-install-button>
+      </p>
+      <h2>Step 3</h2>
+      <p>Tell your webbrowser which serial port to use. Usually it's the one with "CP210" because that's the type of USB-to-Serial chip that's in the Lightning Piggy.</p>
+      <p>We've tested this with Google Chrome on Linux, MacOS and Windows so if you're using that setup, it should work!</p>
+	<img src="/static/select_serial_port.png" alt="Tell your webbrowser which serial port to use."/>
+      <h2>Step 4</h2>
+      <p>Wait and watch the installation progress!</p>
+      <p>If something goes wrong, take a look at the troubleshooting instructions, or make a few screenshots and contact support.</p>
+      <div class="footer">
+        <a href="https://wwww.lightningpiggy.com">Lightning Piggy</a> &mdash; Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
+    </div>
+  </body>
+</html>

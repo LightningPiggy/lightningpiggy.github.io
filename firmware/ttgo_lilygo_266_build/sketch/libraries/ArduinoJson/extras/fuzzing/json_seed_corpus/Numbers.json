@@ -1,0 +1,25 @@
+#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/fuzzing/json_seed_corpus/Numbers.json"
+[
+  123,
+  -123,
+  123.456,
+  -123.456,
+  12e34,
+  12e-34,
+  12e+34,
+  12E34,
+  12E-34,
+  12E+34,
+  12.34e56,
+  12.34e-56,
+  12.34e+56,
+  12.34E56,
+  12.34E-56,
+  12.34E+56,
+  NaN,
+  -NaN,
+  +NaN,
+  Infinity,
+  +Infinity,
+  -Infinity
+]

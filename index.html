@@ -101,7 +101,7 @@
     <div class="content">
       <h1>Lightning Piggy Web Installer</h1>
       <p>This easy and intuitive web installer allows anyone to easily and repeatably build a Lightning Piggy for themselves, using only the browser.</p>
-      <p>If something doesn't work, take a look at the <a href="#troubleshooting">troubleshooting</a> instructions, or make a few screenshots and contact support.</p>
+      <p>If something doesn't work, take a look at the <a href="#troubleshooting">troubleshooting</a> instructions.</p>
       <h2>Step 1</h2>
       <p>Connect your Lightning Piggy to your PC with a USB cable.</p>
       <p>Make sure it's a regular cable that supports data and power, not just power, as we'll need to send data.</p>
@@ -141,8 +141,13 @@
       <p>You'll get confirmation when the installation is complete.</p>
 	<img src="/static/installation_complete.png" alt="Installation complete."/>
       <h2 id="troubleshooting">Troubleshooting</h2>
+	<h3>Drivers</h3>
+		<p>To know how to talk to the Lightning Piggy, your computer needs to have a "device driver" installed.</p>
+		<p>On Linux computers (such as Ubuntu) these are usually installed by default, so you're good!</p>
+		<p>On Windows and MacOS computers, you will get a popup that tells you to install one of these drivers if you don't select a serial port:</p>
+		<img src="/static/no_port_selected.png" alt="No port selected - install drivers"/>
 	<h3>Permissions</h3>
-		<p>If your webbrowser is unable to access your computer's serial port, you'll get an error like "Failed to open serial port":</p>
+		<p>If your computer has the driver, but your webbrowser is unable to access your computer's serial port, you'll get an error like "Failed to open serial port":</p>
 		<img src="/static/failed_to_open_serial_port.png" alt="Failed to open serial port"/>
 		<p>On Linux and MacOS computers, you can fix this by running a command that (temporarily) gives all users access to it. Something like:</p>
 		<p class="monospace">sudo chmod 777 /dev/ttyUSB*</p>
@@ -158,6 +163,10 @@
 		<p>On the tab "Console" you can see what the installer is doing in the background. These details can help pinpoint an issue.</p>
 		<img src="/static/browser_console.png" alt="Browser console"/>
 		<p>Errors about "Improv Wi-Fi Serial" are normal, as the Lightning Piggy doesn't support nor need Improv Wi-Fi at the moment.</p>
+	<h3>Reporting issues</h3>
+		<p>Of course, it's possible that your specific setup causes an issue or there's a bug somewhere that prevents you from installing your Lightning Piggy.</p>
+		<p>If you think that's the case, please gather all the details you can about your specific setup, including the logs of the Lightning Piggy and your webbrowser (if you can) and make a few screenshots to show what works and what doesn't.</p>
+		<p>Then create a new <a href="https://github.com/LightningPiggy/lightningpiggy.github.io/issues">GitHub Issue</a> and attach the files to it. That will allow the community to help you troubleshoot, find a solution, and improve the project to prevent similar issues from occurring. Thanks for helping out!</p>
 	<div class="footer">
 	<a href="https://wwww.lightningpiggy.com">Lightning Piggy</a> &mdash; Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
     </div>

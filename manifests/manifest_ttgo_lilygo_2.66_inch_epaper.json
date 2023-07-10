@@ -5,10 +5,10 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "firmware/ttgo_lilygo_266_build/LightningPiggy-Lilygo-266.ino.bootloader.bin", "offset": 4096 },
-        { "path": "firmware/ttgo_lilygo_266_build/LightningPiggy-Lilygo-266.ino.partitions.bin", "offset": 32768 },
-        { "path": "firmware/ttgo_lilygo_266_build/boot_app0.bin", "offset": 57344 },
-        { "path": "firmware/ttgo_lilygo_266_build/LightningPiggy-Lilygo-266.ino.bin", "offset": 65536 }
+        { "path": "../firmware/ttgo_lilygo_266_build/LightningPiggy-Lilygo-266.ino.bootloader.bin", "offset": 4096 },
+        { "path": "../firmware/ttgo_lilygo_266_build/LightningPiggy-Lilygo-266.ino.partitions.bin", "offset": 32768 },
+        { "path": "../firmware/ttgo_lilygo_266_build/boot_app0.bin", "offset": 57344 },
+        { "path": "../firmware/ttgo_lilygo_266_build/LightningPiggy-Lilygo-266.ino.bin", "offset": 65536 }
       ]
     }
   ]

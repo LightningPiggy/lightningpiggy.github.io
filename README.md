@@ -1,4 +1,4 @@
-Lightning Piggy Web Installer
+## Lightning Piggy Web Installer
 
 This easy and intuitive web installer allows anyone to easily and repeatably build a Lightning Piggy for themselves, using only the browser.
 

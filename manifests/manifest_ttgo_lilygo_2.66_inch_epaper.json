@@ -1,6 +1,6 @@
 {
   "name": "TTGO LilyGo 2.66 Inch ePaper",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "builds": [
     {
       "chipFamily": "ESP32",

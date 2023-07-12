@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/Animated_Eyes_2/user_xmas.cpp"
 #if 0 // Change to 1 to enable this code (must enable ONE user*.cpp only!)
 
 // Christmas demo for eye + NeoPixels. Randomly sets pixels in holiday-themed colors.

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxGDEW026T0/GxGDEW026T0.cpp"
 // class GxGDEW026T0 : Display class for GDEW026T0 e-Paper from Dalian Good Display Co., Ltd.: http://www.e-paper-display.com/products_detail/productId=398.html
 //
 // based on Demo Example from Good Display, available here: http://www.e-paper-display.com/download_detail/downloadsId=623.html

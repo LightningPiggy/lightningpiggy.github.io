@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/S6D02A1_Rotation.h"
 
 // This is the command sequence that rotates the S6D02A1 driver coordinate frame
 

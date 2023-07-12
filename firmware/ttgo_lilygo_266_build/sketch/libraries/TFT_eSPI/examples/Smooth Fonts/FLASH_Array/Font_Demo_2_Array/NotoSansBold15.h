@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Smooth Fonts/FLASH_Array/Font_Demo_2_Array/NotoSansBold15.h"
 /* The font vlw file can be converted to a byte array using:
 
    https://tomeko.net/online_tools/file_to_hex.php?lang=en

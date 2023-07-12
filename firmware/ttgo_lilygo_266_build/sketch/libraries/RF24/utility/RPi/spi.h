@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/RPi/spi.h"
 /*
  * TMRh20 2015
  * SPI layer for RF24 <-> BCM2835

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/CC1101/CC1101.h"
 #if !defined(_RADIOLIB_CC1101_H) && !defined(RADIOLIB_EXCLUDE_CC1101)
 #define _RADIOLIB_CC1101_H
 

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/SPIDEV/gpio.h"
 /*
  * https://github.com/mrshu/GPIOlib
  * Copyright (c) 2011, Copyright (c) 2011 mr.Shu

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxDEPG0290B/GxDEPG0290B.cpp"
 // class GxDEPG0290B
 // Controller :
 

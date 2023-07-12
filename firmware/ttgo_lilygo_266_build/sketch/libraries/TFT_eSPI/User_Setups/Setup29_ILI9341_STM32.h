@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup29_ILI9341_STM32.h"
 
         ///////////////////////////////////////////////////
         //  Setup for STM32 Nucleo and ILI9341 display   //

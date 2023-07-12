@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup137_LilyGo_TDisplay_RP2040.h"
 // LilyGo T-Display RP2040 (ST7789 135 x 240 display)
 #define USER_SETUP_ID 137
 

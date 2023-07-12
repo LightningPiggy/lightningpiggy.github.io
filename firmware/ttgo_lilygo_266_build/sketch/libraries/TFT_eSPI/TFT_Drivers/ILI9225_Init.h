@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/ILI9225_Init.h"
 // This is the command sequence that initialises the ILI9225 driver
 
 {

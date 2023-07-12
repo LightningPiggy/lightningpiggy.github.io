@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/nRF24/nRF24.cpp"
 #include "nRF24.h"
 #if !defined(RADIOLIB_EXCLUDE_NRF24)
 

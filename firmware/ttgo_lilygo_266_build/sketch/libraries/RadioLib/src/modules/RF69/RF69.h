@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/RF69/RF69.h"
 #if !defined(_RADIOLIB_RF69_H)
 #define _RADIOLIB_RF69_H
 

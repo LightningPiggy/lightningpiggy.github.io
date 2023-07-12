@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Processors/TFT_eSPI_STM32.c"
         ////////////////////////////////////////////////////
         // TFT_eSPI Driver functions for STM32 processors //
         ////////////////////////////////////////////////////

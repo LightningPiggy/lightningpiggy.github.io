@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup100_RP2040_ILI9488_parallel.h"
 // This setup is for the RP2040 processor only when used with 8 bit parallel displays
 // See SetupX_Template.h for all options available
 #define USER_SETUP_ID 100

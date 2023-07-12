@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/DMA test/boing_ball/graphic.h"
 // Graphics arrays were generated from PNG images using Python and PIL.
 // Each is bit-packed into bytes: background is 1bpp, ball is 4bpp.
 

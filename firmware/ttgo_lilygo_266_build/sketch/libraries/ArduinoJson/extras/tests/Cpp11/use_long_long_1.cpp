@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/Cpp11/use_long_long_1.cpp"
 #define ARDUINOJSON_USE_LONG_LONG 1
 #include <ArduinoJson.h>
 

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/RTTY/RTTY.h"
 #if !defined(_RADIOLIB_RTTY_H)
 #define _RADIOLIB_RTTY_H
 

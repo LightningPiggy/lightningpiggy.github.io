@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/Si443x/Si4432.h"
 #if !defined(_RADIOLIB_SI4432_H)
 #define _RADIOLIB_SI4432_H
 

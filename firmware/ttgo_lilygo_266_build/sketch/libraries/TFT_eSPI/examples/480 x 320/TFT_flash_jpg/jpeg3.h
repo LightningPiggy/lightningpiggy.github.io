@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/480 x 320/TFT_flash_jpg/jpeg3.h"
 // We need this header file to use FLASH as storage with PROGMEM directive
 
 // Here is the 320 x 480 jpeg image data

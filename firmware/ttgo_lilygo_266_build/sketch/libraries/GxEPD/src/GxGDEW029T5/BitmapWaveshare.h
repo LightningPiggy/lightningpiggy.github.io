@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxGDEW029T5/BitmapWaveshare.h"
 /**
  *  @filename   :   imagedata.cpp
  *  @brief      :   data file for epd demo

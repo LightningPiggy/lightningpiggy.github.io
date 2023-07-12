@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/MRAA/compatibility.h"
 /*
  * File:   compatiblity.h
  * Author: purinda

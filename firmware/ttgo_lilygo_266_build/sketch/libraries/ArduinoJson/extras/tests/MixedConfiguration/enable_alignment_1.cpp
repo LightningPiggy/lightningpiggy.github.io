@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/MixedConfiguration/enable_alignment_1.cpp"
 #define ARDUINOJSON_ENABLE_ALIGNMENT 1
 #include <ArduinoJson.h>
 

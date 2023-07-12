@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxFont_GFX.cpp"
 // class GxFont_GFX : Font Rendering Graphics Switch and Bridge Class
 //
 // This class allows to connect GxEPD to additional font rendering classes.

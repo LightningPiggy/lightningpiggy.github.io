@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/R61581_Rotation.h"
   // This is the command sequence that rotates the R61581 driver coordinate frame
 
   writecommand(TFT_MADCTL);

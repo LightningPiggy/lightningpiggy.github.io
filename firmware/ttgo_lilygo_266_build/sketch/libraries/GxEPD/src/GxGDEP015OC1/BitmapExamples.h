@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxGDEP015OC1/BitmapExamples.h"
 #ifndef _GxBitmapExamples_H_
 #define _GxBitmapExamples_H_
 

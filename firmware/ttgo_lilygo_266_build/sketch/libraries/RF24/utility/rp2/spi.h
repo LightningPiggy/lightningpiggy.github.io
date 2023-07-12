@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/rp2/spi.h"
 /**
  * @file spi.h
  * Class declaration for SPI wrapping the Pico SDK

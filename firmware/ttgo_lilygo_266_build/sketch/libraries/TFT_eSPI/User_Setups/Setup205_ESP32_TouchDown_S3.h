@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup205_ESP32_TouchDown_S3.h"
 // User Setup for the ESP32 TouchDown S3 V1.1
 // ILI9488 using 8-bit Parallel and using an FT6206 touch controller
 

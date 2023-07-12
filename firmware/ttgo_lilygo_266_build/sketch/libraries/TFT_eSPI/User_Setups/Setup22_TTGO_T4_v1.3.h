@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup22_TTGO_T4_v1.3.h"
 // Setup for the TTGO T4 v1.3 ESP32 board with 2.2" ILI9341 display
 #define USER_SETUP_ID 99922
 

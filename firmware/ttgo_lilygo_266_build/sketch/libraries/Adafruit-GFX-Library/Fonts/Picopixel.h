@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/Adafruit-GFX-Library/Fonts/Picopixel.h"
 // Picopixel by Sebastian Weber.  A tiny font
 // with all characters within a 6 pixel height.
 

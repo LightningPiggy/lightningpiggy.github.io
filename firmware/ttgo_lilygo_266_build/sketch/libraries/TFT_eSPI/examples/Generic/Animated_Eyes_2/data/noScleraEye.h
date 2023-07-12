@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/Animated_Eyes_2/data/noScleraEye.h"
 #define IRIS_MIN 120 // Override default iris size limits in sketch
 #define IRIS_MAX 550
 

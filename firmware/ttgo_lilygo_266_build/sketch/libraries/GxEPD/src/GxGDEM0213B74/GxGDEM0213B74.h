@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxGDEM0213B74/GxGDEM0213B74.h"
 // class GxGDEM0213B74 : Display class for GDEH0213B73 e-Paper from Dalian Good Display Co., Ltd.: http://www.e-paper-display.com/products_detail/productId=458.html
 //
 // based on Demo Example from Good Display: http://www.e-paper-display.com/download_detail/downloadsId=810.html

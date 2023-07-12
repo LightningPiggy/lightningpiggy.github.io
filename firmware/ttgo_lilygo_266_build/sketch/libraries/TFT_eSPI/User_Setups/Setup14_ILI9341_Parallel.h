@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup14_ILI9341_Parallel.h"
 // See SetupX_Template.h for all options available
 #define USER_SETUP_ID 14
 

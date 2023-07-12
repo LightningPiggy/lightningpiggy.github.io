@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/nRF24/nRF24.h"
 #if !defined(_RADIOLIB_NRF24_H) && !defined(RADIOLIB_EXCLUDE_NRF24)
 #define _RADIOLIB_NRF24_H
 

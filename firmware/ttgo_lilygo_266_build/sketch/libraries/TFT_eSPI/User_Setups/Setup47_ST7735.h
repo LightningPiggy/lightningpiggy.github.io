@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup47_ST7735.h"
 // Config for two ST7735 128 x 128 displays for Animated_Eyes example
 #define USER_SETUP_ID 47
 

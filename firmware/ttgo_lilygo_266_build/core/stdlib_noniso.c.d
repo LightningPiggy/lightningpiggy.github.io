@@ -1,12 +1,24 @@
-/tmp/arduino_build_185241/core/stdlib_noniso.c.o: \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/cores/esp32/stdlib_noniso.c \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/cores/esp32/stdlib_noniso.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_system/include/esp_system.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_common/include/esp_err.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_common/include/esp_bit_defs.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_common/include/esp_idf_version.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_hw_support/include/esp_mac.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_hw_support/include/esp_chip_info.h \
- /home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/tools/sdk/esp32/include/esp_hw_support/include/esp_random.h
+/tmp/arduino_build_143089/core/stdlib_noniso.c.o: \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/cores/esp32/stdlib_noniso.c \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/stdlib.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/machine/ieeefp.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/_ansi.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/newlib.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/config.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/features.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/esp32/xtensa/config/core-isa.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/reent.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/_ansi.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/_types.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/machine/_types.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/machine/_default_types.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/lock.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/cdefs.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/machine/stdlib.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/alloca.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/string.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/string.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/stdint.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/sys/_intsup.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/newlib/math.h \
+ /home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/cores/esp32/stdlib_noniso.h

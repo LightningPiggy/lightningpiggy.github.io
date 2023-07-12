@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxDEPG0097BW/GxDEPG0097BW.h"
 // class GxDEPG0097BW
 // Controller : SSD1680Z8
 

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/GUI Widgets/Buttons/Button_demo/Free_Fonts.h"
 // Attach this header file to your sketch to use the GFX Free Fonts. You can write
 // sketches without it, but it makes referencing them easier.
 

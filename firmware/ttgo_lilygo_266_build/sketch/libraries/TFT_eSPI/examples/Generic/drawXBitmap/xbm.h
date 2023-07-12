@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/drawXBitmap/xbm.h"
 // Images can be converted to XBM format by using the online converter here:
 // https://www.online-utility.org/image/convert/to/XBM
 

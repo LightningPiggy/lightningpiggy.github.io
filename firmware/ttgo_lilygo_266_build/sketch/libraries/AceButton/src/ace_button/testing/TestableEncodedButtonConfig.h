@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/AceButton/src/ace_button/testing/TestableEncodedButtonConfig.h"
 /*
 MIT License
 

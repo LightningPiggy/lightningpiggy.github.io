@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/ESP8266_uncannyEyes/dragonEye.h"
 #define SCLERA_WIDTH  160
 #define SCLERA_HEIGHT 160
 

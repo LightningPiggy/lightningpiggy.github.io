@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/RPi/compatibility.h"
 #ifndef COMPATIBLITY_H
 #define COMPATIBLITY_H
 

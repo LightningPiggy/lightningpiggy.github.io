@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup32_ILI9341_STM32F103.h"
         //////////////////////////////////////////////////////////////
         // Setup for STM32F103 (e.g. Blue Pill) and ILI9341 display //
         //////////////////////////////////////////////////////////////

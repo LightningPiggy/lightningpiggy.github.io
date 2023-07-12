@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/extras/template/ModuleTemplate.cpp"
 #include "<module_name>.h"
 #if !defined(RADIOLIB_EXCLUDE_<module_name>)
 

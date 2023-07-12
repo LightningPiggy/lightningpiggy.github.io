@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup61_RP2040_ILI9341_PIO_SPI.h"
 // Setup file for RP2040 and SPI ILI9341 display using PIO for the display interface
 #define USER_SETUP_ID 61
 // The PIO can only be user with Earle Philhower's RP2040 board package:

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup23_TTGO_TM.h"
 // Setup for the TTGO TM (Music) ESP32 board with 2.4" ST7789V display
 #define USER_SETUP_ID 23
 

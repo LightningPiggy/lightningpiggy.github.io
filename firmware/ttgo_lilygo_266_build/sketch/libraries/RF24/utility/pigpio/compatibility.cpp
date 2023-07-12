@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/pigpio/compatibility.cpp"
 #include "compatibility.h"
 
 long long mtime, seconds, useconds;

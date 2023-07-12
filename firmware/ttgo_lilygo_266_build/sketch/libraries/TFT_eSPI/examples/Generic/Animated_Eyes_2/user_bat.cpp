@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/Animated_Eyes_2/user_bat.cpp"
 // SERVO BAT: flapping paper-cutout bat (attached to servo on SERVO_PIN)
 // triggered by contact-sensitive conductive thread on CAPTOUCH_PIN.
 // See user.cpp for basics of connecting user code to animated eyes.

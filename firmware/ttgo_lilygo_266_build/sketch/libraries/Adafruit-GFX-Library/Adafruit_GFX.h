@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/Adafruit-GFX-Library/Adafruit_GFX.h"
 #ifndef _ADAFRUIT_GFX_H
 #define _ADAFRUIT_GFX_H
 

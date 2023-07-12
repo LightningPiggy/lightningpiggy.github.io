@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/RM68120_Init.h"
 
 writeRegister(0xF000, 0x55);
 writeRegister(0xF001, 0xAA);

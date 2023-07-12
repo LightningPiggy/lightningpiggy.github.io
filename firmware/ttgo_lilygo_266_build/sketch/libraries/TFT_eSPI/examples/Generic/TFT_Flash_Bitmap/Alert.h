@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/TFT_Flash_Bitmap/Alert.h"
 // We need this header file to use FLASH as storage with PROGMEM directive:
 
 // Icon width and height

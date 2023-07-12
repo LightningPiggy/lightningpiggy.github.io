@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/DMA test/Flash_Jpg_DMA/panda.h"
 /*  Create C arrays from jpeg images using this online tool:
     http://tomeko.net/online_tools/file_to_hex.php?lang=en
 

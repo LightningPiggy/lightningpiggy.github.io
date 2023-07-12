@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup70d_ILI9488_S3_Parallel.h"
 
 #define USER_SETUP_ID 146
 

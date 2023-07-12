@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/Animated_Eyes_1/config.h"
 // Pin selections here are based on the original Adafruit Learning System
 // guide for the Teensy 3.x project.  Some of these pin numbers don't even
 // exist on the smaller SAMD M0 & M4 boards, so you may need to make other

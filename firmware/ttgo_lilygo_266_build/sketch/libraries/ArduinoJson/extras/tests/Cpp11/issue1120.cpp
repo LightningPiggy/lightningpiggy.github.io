@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/Cpp11/issue1120.cpp"
 #include <ArduinoJson.h>
 
 #include <catch.hpp>

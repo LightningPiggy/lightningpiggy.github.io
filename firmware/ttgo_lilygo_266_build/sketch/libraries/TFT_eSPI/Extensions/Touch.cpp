@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Extensions/Touch.cpp"
 // The following touch screen support code by maxpautsch was merged 1/10/17
 // https://github.com/maxpautsch
 

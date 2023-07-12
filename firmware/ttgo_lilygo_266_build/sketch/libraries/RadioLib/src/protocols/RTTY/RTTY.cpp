@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/RTTY/RTTY.cpp"
 #include "RTTY.h"
 #if !defined(RADIOLIB_EXCLUDE_RTTY)
 

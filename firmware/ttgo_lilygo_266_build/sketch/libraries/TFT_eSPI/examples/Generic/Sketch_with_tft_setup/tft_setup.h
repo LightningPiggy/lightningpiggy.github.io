@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/Sketch_with_tft_setup/tft_setup.h"
 // This is a configuration setup file example for an RP2040 processor
 // Adapt as required for your own hardware configuration
 

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/EPD_Defines.h"
 // Null set for ePaper
 #define TFT_WIDTH  1000
 #define TFT_HEIGHT 1000

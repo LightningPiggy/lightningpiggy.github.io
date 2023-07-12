@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/ATTiny/RF24_arch_config.h"
 
 /*
  TMRh20 2015

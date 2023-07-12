@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxIO/GxIO_SPI/SoftSPI.h"
 /**
  * @file      SoftSPI.h
  * @author    Lewis He (lewishe@outlook.com)

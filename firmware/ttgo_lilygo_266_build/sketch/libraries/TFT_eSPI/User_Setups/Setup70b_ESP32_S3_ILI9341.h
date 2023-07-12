@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup70b_ESP32_S3_ILI9341.h"
 // Setup for the ESP32 S3 with ILI9341 display
 // Note SPI DMA with ESP32 S3 is not currently supported
 #define USER_SETUP_ID 70

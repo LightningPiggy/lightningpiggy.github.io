@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/MixedConfiguration/use_double_0.cpp"
 #define ARDUINOJSON_USE_DOUBLE 0
 #include <ArduinoJson.h>
 

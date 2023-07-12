@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/ePaper/Floyd_Steinberg/EPD_Support.h"
 /*  Support definitions and functions for ePaper examples
  *  These tailor the library and screen settings
  *  Must be a header file to ensure #defines are established first

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/RPi/bcm2835.h"
 /* bcm2835.h
   
    C and C++ support for Broadcom BCM 2835 as used in Raspberry Pi

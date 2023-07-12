@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/rp2/RF24_arch_config.h"
 /*
  * Copyright (C)
  *  2021 Jannis Achstetter (kripton)

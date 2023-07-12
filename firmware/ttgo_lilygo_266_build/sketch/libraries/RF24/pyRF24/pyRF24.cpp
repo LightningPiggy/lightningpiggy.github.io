@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/pyRF24/pyRF24.cpp"
 #include <boost/python.hpp>
 #include <RF24/RF24.h>
 

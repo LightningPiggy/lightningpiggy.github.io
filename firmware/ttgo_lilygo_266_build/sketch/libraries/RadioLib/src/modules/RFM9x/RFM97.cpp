@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/RFM9x/RFM97.cpp"
 #include "RFM97.h"
 #if !defined(RADIOLIB_EXCLUDE_RFM9X)
 

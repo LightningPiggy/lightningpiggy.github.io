@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/SparkFun_BME280_Arduino_Library/src/SparkFunBME280.cpp"
 /******************************************************************************
 SparkFunBME280.cpp
 BME280 Arduino and Teensy Driver

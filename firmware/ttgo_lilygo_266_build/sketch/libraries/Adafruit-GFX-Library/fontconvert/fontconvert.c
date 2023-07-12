@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/Adafruit-GFX-Library/fontconvert/fontconvert.c"
 /*
 TrueType to Adafruit_GFX font converter.  Derived from Peter Jakobs'
 Adafruit_ftGFX fork & makefont tool, and Paul Kourany's Adafruit_mfGFX.

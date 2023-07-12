@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup72_ESP32_ST7789_172x320.h"
 // Support for 1.47" 320x172 Round Rectangle Color IPS TFT Display
 #define USER_SETUP_ID 71
 

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/SSTV/SSTV.h"
 #if !defined(_RADIOLIB_RADIOLIB_SSTV_H)
 #define _RADIOLIB_RADIOLIB_SSTV_H
 

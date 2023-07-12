@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxIO/GxIO.h"
 // created by Jean-Marc Zingg to be the GxIO io base class for the GxTFT library
 //
 // License: GNU GENERAL PUBLIC LICENSE V3, see LICENSE

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/JsonSerializer/misc.cpp"
 #include <ArduinoJson.h>
 #include <catch.hpp>
 #include <limits>

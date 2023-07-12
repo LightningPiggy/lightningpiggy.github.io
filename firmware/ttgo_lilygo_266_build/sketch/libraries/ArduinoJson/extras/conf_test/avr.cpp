@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/conf_test/avr.cpp"
 #include <ArduinoJson.h>
 
 static_assert(ARDUINOJSON_USE_LONG_LONG == 0, "ARDUINOJSON_USE_LONG_LONG");

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxIO/GxIO_SPI/GxIO_SPI.cpp"
 // created by Jean-Marc Zingg to be the GxIO_SPI io class for the GxEPD library
 //
 // License: GNU GENERAL PUBLIC LICENSE V3, see LICENSE

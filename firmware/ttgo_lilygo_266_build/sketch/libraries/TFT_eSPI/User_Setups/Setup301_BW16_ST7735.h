@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup301_BW16_ST7735.h"
 #include "itoa.h"
 #include <avr/dtostrf.h>
 

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup45_TTGO_T_Watch.h"
 #define USER_SETUP_ID 45
 
 #define ST7789_DRIVER

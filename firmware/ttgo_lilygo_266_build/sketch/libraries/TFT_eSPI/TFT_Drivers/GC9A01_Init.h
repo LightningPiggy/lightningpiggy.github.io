@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/GC9A01_Init.h"
 
 // This is the command sequence that initialises the GC9A01 driver
 

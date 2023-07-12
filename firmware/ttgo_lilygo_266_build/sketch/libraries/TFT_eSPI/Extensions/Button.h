@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Extensions/Button.h"
 /***************************************************************************************
 // The following button class has been ported over from the Adafruit_GFX library so
 // should be compatible.

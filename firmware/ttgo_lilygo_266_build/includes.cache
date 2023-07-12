@@ -2,50 +2,50 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/cores/esp32"
+    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/cores/esp32"
   },
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/variants/esp32"
+    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/variants/esp32"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "ArduinoJson.h",
     "Includepath": "/home/user/Arduino/libraries/ArduinoJson/src"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "GxEPD.h",
     "Includepath": "/home/user/Arduino/libraries/GxEPD/src"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "SPI.h",
-    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/SPI/src"
+    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/SPI/src"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "Adafruit_GFX.h",
     "Includepath": "/home/user/Arduino/libraries/Adafruit-GFX-Library"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "qrcoded.h",
     "Includepath": "/home/user/Arduino/libraries/QRCode/src"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "WiFiClientSecure.h",
-    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFiClientSecure/src"
+    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFiClientSecure/src"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "WiFi.h",
-    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src"
+    "Includepath": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src"
   },
   {
-    "Sourcefile": "/tmp/arduino_build_185241/sketch/LightningPiggy-Lilygo-266.ino.cpp",
+    "Sourcefile": "/tmp/arduino_build_143089/sketch/LightningPiggy-Lilygo-266.ino.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -275,7 +275,7 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/SPI/src/SPI.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/SPI/src/SPI.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -300,62 +300,62 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFiClientSecure/src/esp_crt_bundle.c",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFiClientSecure/src/ssl_client.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFiClientSecure/src/ssl_client.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/ETH.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFi.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFi.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiAP.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiAP.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiClient.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiClient.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiGeneric.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiGeneric.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiMulti.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiMulti.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiSTA.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiSTA.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiScan.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiScan.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiServer.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiServer.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/2.0.9/libraries/WiFi/src/WiFiUdp.cpp",
+    "Sourcefile": "/home/user/.arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src/WiFiUdp.cpp",
     "Include": "",
     "Includepath": null
   }

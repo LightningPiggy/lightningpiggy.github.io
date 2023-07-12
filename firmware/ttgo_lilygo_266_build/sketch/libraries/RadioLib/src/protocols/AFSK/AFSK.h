@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/AFSK/AFSK.h"
 #if !defined(_RADIOLIB_AFSK_H)
 #define _RADIOLIB_AFSK_H
 

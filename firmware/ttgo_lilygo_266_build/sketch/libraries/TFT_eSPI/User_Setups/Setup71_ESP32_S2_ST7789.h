@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup71_ESP32_S2_ST7789.h"
 // Setup for the ESP32 S2 with ST7789 display
 // Note SPI DMA with ESP32 S2 is not currently supported
 #define USER_SETUP_ID 71

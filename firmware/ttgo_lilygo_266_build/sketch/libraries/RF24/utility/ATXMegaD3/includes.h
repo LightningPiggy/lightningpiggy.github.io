@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/ATXMegaD3/includes.h"
 /**
 * @file includes.h
 * Configuration defines for RF24/Linux

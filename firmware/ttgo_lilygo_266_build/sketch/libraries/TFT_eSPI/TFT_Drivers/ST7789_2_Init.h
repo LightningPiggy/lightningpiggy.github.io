@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/ST7789_2_Init.h"
 
 // This is the command sequence that initialises the ST7789 driver
 

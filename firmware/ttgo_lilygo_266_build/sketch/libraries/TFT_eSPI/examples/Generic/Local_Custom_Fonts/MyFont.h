@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/Local_Custom_Fonts/MyFont.h"
 // If you follow the tutorial here:
 // https://www.youtube.com/watch?v=L8MmTISmwZ8
 // do not forget the names must be edited to remove the Windows file path.

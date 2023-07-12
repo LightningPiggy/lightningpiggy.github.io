@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h"
 // For ESP8266
 // See SetupX_Template.h for all options available
 #define USER_SETUP_ID 10

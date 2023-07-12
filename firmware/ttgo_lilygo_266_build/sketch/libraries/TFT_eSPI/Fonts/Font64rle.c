@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Fonts/Font64rle.c"
 // Font 6 is intended to display numbers and time
 //
 // This font has been 8 bit Run Length Encoded to save FLASH space

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/examples_linux/multiceiverDemo.cpp"
 /*
  * See documentation at https://nRF24.github.io/RF24
  * See License information at root directory of this library

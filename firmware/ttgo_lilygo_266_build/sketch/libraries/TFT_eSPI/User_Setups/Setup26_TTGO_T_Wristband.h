@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup26_TTGO_T_Wristband.h"
 #define USER_SETUP_ID 26
 
 #define ST7735_DRIVER

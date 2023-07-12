@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxGDEW075Z09/BitmapPicture_3C.h"
 #ifndef _BitmapPicture_3C_H_
 #define _BitmapPicture_3C_H_
 

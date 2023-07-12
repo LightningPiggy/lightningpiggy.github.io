@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup70c_ESP32_C3_ILI9341.h"
 // Setup for the ESP32 C3 with ILI9341 display
 // Note SPI DMA with ESP32 C3 is not currently supported
 

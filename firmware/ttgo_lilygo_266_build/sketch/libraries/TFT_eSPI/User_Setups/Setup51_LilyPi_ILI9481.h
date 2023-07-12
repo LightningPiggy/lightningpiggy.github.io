@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup51_LilyPi_ILI9481.h"
 #define USER_SETUP_ID 51
 
 #define ILI9481_DRIVER

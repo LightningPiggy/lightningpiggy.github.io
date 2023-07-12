@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/RPi/RF24_arch_config.h"
 #ifndef __ARCH_CONFIG_H__
 #define __ARCH_CONFIG_H__
 

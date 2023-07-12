@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_eSPI.h"
 /***************************************************
   Arduino TFT graphics library targeted at ESP8266
   and ESP32 based boards.

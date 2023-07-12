@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxDEPG0750BN/GxDEPG0750BN.cpp"
 // class GxDEPG0750BN
 // Controller: UC8179C
 

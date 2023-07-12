@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/Adafruit-GFX-Library/gfxfont.h"
 // Font structures for newer Adafruit_GFX (1.1 and later).
 // Example fonts are included in 'Fonts' directory.
 // To use a font in your Arduino sketch, #include the corresponding .h

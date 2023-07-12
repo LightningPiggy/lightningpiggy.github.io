@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Fonts/Font64rle.h"
 #include <Fonts/Font64rle.c>
 
 #define nr_chrs_f64 96

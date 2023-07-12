@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/SX128x/SX1281.h"
 #if !defined(_RADIOLIB_SX1281_H)
 #define _RADIOLIB_SX1281_H
 

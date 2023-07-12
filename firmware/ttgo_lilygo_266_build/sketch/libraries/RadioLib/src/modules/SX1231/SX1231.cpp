@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/SX1231/SX1231.cpp"
 #include "SX1231.h"
 #if !defined(RADIOLIB_EXCLUDE_SX1231)
 

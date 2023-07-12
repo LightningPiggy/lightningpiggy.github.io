@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup204_ESP32_TouchDown.h"
 // User Setup for the ESP32 TouchDown V1.0 and V1.1
 // ILI9488 using 4-wire SPI and using an FT6206 touch controller
 

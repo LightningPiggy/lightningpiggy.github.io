@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_eSPI.cpp"
 /***************************************************
   Arduino TFT graphics library targeted at 32 bit
   processors such as ESP32, ESP8266 and STM32.

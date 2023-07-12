@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/catch/catch.hpp"
 /*
  *  Catch v1.12.2
  *  Generated: 2018-05-14 15:10:01.112442

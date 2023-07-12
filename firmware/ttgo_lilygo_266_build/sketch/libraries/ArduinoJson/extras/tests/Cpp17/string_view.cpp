@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/Cpp17/string_view.cpp"
 #include <ArduinoJson.h>
 
 #include <catch.hpp>

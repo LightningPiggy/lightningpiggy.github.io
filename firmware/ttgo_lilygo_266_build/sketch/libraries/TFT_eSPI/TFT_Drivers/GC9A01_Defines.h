@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/GC9A01_Defines.h"
 // Change the width and height if required (defined in portrait mode)
 // or use the constructor to over-ride defaults
 #ifndef TFT_WIDTH

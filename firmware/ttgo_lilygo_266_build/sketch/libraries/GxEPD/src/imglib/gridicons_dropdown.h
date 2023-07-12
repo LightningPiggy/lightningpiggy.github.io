@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/imglib/gridicons_dropdown.h"
 #if defined(ESP8266) || defined(ESP32)
 #include <pgmspace.h>
 #else

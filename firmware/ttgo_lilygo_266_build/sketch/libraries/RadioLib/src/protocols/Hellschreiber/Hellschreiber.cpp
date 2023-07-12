@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/Hellschreiber/Hellschreiber.cpp"
 #include "Hellschreiber.h"
 #if !defined(RADIOLIB_EXCLUDE_HELLSCHREIBER)
 

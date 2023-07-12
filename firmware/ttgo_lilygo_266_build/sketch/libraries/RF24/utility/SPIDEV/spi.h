@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/utility/SPIDEV/spi.h"
 /*
  * File:   spi.h
  * Author: Purinda Gunasekara <purinda@gmail.com>

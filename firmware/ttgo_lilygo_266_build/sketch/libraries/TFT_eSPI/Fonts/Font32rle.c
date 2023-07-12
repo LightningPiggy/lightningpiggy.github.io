@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Fonts/Font32rle.c"
 // Font 4
 //
 // This font has been 8 bit Run Length Encoded to save FLASH space

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup34_ILI9481_Parallel_STM32.h"
         ////////////////////////////////////////////////////
         // Setup for Nucleo 64 or 144 and ILI9341 display //
         ////////////////////////////////////////////////////

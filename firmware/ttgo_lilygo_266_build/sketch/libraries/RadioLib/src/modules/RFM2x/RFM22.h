@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/RFM2x/RFM22.h"
 #if !defined(_RADIOLIB_RFM22_H)
 #define _RADIOLIB_RFM22_H
 

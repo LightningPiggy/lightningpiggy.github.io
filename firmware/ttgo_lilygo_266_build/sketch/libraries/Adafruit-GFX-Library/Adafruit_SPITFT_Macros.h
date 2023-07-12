@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/Adafruit-GFX-Library/Adafruit_SPITFT_Macros.h"
 #ifndef _ADAFRUIT_SPITFT_MACROS
 #define _ADAFRUIT_SPITFT_MACROS
 

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/FSK4/FSK4.cpp"
 #include "FSK4.h"
 #if !defined(RADIOLIB_EXCLUDE_FSK4)
 

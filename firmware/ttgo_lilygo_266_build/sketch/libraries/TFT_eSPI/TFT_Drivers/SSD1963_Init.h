@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/SSD1963_Init.h"
 #if defined (SSD1963_480_DRIVER)
 
   writecommand(0xE2);   //PLL multiplier, set PLL clock to 120M

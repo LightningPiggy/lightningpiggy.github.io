@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Sprite/Orrery/astronomy.h"
 /*
     Astronomy Engine for C/C++.
     https://github.com/cosinekitty/astronomy

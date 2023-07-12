@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.cpp"
 #include "PhysicalLayer.h"
 
 PhysicalLayer::PhysicalLayer(float freqStep, size_t maxPacketLength) {

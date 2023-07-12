@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/SparkFun_BME280_Arduino_Library/examples/Example7_RelativeAltitudeChange/CircularBuffer.cpp"
 #include "CircularBuffer.h"
 #include <stdint.h>
 

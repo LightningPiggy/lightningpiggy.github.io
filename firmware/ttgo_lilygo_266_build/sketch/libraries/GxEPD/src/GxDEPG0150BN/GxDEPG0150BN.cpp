@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxDEPG0150BN/GxDEPG0150BN.cpp"
 // class GxDEPG0150BN :
 // Controller : SSD1681
 

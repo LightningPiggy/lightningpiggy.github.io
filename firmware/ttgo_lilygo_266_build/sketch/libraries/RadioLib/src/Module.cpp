@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/Module.cpp"
 #include "Module.h"
 
 #if defined(RADIOLIB_BUILD_ARDUINO)

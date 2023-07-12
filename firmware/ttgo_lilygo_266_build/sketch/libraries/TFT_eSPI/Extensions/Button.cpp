@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Extensions/Button.cpp"
 /***************************************************************************************
 ** Code for the GFX button UI element
 ** Grabbed from Adafruit_GFX library and enhanced to handle any label font

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/User_Custom_Fonts.h"
 
 // Custom "Adafruit" compatible font files can be added to the "TFT_eSPI/Fonts/Custom" folder
 // Fonts in a suitable format can be created using a Squix blog web based tool here:

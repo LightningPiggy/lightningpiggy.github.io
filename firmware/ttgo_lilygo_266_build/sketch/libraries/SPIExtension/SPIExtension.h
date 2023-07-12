@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/SPIExtension/SPIExtension.h"
 #pragma once
 #ifndef SPIEXTENSION_H
 #define SPIEXTENSION_H

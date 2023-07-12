@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/ArduinoJson/extras/tests/MixedConfiguration/decode_unicode_0.cpp"
 #define ARDUINOJSON_DECODE_UNICODE 0
 #include <ArduinoJson.h>
 

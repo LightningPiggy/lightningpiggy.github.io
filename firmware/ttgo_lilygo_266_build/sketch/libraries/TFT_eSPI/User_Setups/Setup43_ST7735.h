@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup43_ST7735.h"
 // Setup for ESP32 and ST7735 80 x 160 TFT
 #define USER_SETUP_ID 43
 // See SetupX_Template.h for all options available

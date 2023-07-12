@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/examples/AFSK/AFSK_Imperial_March/melody.h"
 /*
    Note definitions, melody and melody-related functions
    adapted from https://github.com/robsoncouto/arduino-songs

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup44_TTGO_CameraPlus.h"
 #define USER_SETUP_ID 44
 
 #define ST7789_DRIVER

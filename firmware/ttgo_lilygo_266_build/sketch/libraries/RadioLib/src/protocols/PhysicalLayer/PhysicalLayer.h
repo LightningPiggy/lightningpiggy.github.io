@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/PhysicalLayer/PhysicalLayer.h"
 #if !defined(_RADIOLIB_PHYSICAL_LAYER_H)
 #define _RADIOLIB_PHYSICAL_LAYER_H
 

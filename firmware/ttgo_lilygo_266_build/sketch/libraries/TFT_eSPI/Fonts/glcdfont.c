@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Fonts/glcdfont.c"
 // Original Adafruit_GFX 5x7 font
 
 #ifndef FONT5X7_H

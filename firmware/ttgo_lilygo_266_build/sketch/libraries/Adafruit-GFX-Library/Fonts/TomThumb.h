@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/Adafruit-GFX-Library/Fonts/TomThumb.h"
 /**
 ** The original 3x5 font is licensed under the 3-clause BSD license:
 **

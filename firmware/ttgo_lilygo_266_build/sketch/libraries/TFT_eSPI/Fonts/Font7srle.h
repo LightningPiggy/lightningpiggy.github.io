@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Fonts/Font7srle.h"
 #include <Fonts/Font7srle.c>
 
 #define nr_chrs_f7s 96

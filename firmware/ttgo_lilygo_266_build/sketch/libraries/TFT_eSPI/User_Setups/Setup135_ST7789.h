@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup135_ST7789.h"
 // ST7789 135 x 240 display with no chip select line
 #define USER_SETUP_ID 135
 

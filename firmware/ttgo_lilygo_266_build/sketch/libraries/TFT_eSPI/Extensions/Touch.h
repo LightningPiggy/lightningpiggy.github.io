@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Extensions/Touch.h"
  // Coded by Bodmer 10/2/18, see license in root directory.
  // This is part of the TFT_eSPI class and is associated with the Touch Screen handlers
 

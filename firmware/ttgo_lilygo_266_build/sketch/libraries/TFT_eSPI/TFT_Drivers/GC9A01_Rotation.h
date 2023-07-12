@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/GC9A01_Rotation.h"
 
 // This is the command sequence that rotates the GC9A01 driver coordinate frame
 

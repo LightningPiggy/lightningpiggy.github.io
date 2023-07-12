@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/extras/Particle/examples/GxEPD_ParticleExample/src/IMG_0001.h"
 #ifndef _GxBootExample_H_
 #define _GxBootExample_H_
 

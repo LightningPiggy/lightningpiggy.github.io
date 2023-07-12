@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/nRF24L01.h"
 /*
     Copyright (c) 2007 Stefan Engelke <mbox@stefanengelke.de>
 	Portions Copyright (C) 2011 Greg Copeland

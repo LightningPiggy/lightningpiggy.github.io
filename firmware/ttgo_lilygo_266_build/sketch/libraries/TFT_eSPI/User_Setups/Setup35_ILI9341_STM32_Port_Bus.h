@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup35_ILI9341_STM32_Port_Bus.h"
         //////////////////////////////////////////////////////////////
         //           Setup for STM32 and ILI9341 display            //
         //////////////////////////////////////////////////////////////

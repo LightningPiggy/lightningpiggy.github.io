@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_config.h"
 
 ///////////////////////////////////////////////////////////
 /*           Support file for ESP32 IDF use              */

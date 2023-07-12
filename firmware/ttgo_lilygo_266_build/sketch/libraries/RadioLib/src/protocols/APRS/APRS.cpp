@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/APRS/APRS.cpp"
 #include "APRS.h"
 
 APRSClient::APRSClient(AX25Client* ax) {

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Fonts/Font32rle.h"
 #include <Fonts/Font32rle.c>
 
 #define nr_chrs_f32 96

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Generic/Animated_Eyes_2/user.cpp"
 #if 1 // Change to 0 to disable this code (must enable ONE user*.cpp only!)
 
 // This file provides a crude way to "drop in" user code to the eyes,

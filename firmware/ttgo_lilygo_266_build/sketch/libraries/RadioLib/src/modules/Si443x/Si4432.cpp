@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/modules/Si443x/Si4432.cpp"
 #include "Si4432.h"
 #if !defined(RADIOLIB_EXCLUDE_SI443X)
 

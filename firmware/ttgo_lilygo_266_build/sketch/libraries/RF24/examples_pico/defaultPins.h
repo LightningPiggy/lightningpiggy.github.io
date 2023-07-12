@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/examples_pico/defaultPins.h"
 // pre-chossen pins for different boards
 #ifndef DEFAULTPINS_H
 #define DEFAULTPINS_H

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/AX25/AX25.cpp"
 #include "AX25.h"
 #if !defined(RADIOLIB_EXCLUDE_AX25)
 

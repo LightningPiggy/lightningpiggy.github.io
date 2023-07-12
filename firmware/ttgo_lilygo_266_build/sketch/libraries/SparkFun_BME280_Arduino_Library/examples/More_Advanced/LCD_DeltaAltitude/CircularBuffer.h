@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/SparkFun_BME280_Arduino_Library/examples/More_Advanced/LCD_DeltaAltitude/CircularBuffer.h"
 #ifndef CIRCULARBUFFER_H
 #define CIRCULARBUFFER_H
 #include <stdint.h>

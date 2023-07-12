@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Sprite/Animated_dial/NotoSansBold36.h"
 /* The font vlw file can be converted to a byte array using:
 
    https://tomeko.net/online_tools/file_to_hex.php?lang=en

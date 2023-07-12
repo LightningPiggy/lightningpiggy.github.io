@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/TFT_Drivers/SSD1351_Init.h"
 {
   writecommand(0xFD); // COMMANDLOCK
   writedata(0x12);

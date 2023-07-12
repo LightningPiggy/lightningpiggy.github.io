@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/Fonts/GFXFF/gfxfont.h"
 // Adopted by Bodmer to support TFT_eSPI library.
 
 // Font structures for newer Adafruit_GFX (1.1 and later).

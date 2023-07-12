@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/GxEPD/src/GxDEPG0290R/GxDEPG0290R.h"
 // class GxDEPG0290R :
 // Driver: SSD1680Z8
 #ifndef _GxDEPG0290R_H_

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/QRCode/tests/QrCode.hpp"
 /* 
  * QR Code generator library (C++)
  * 

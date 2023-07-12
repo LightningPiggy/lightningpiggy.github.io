@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/AceButton/examples/AutoBenchmark/ProfilingButtonConfig.h"
 #ifndef PROFILING_BUTTON_CONFIG_H
 #define PROFILING_BUTTON_CONFIG_H
 

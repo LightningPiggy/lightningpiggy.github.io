@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/AFSK/AFSK.cpp"
 #include "AFSK.h"
 #if !defined(RADIOLIB_EXCLUDE_AFSK)
 

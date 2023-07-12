@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/protocols/Morse/Morse.h"
 #if !defined(_RADIOLIB_RADIOLIB_MORSE_H) && !defined(RADIOLIB_EXCLUDE_MORSE)
 #define _RADIOLIB_RADIOLIB_MORSE_H
 

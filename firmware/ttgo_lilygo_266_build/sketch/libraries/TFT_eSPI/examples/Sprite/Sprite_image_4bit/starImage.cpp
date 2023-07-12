@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/Sprite/Sprite_image_4bit/starImage.cpp"
 #include "sample_images.h"
 
 

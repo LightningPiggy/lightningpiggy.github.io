@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/examples/160 x 128/TFT_flash_jpg/jpeg2.h"
 // We need this header file to use FLASH as storage with PROGMEM directive
 
 const uint8_t Tiger[] PROGMEM = {

@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RadioLib/src/BuildOpt.h"
 #if !defined(_RADIOLIB_BUILD_OPTIONS_H)
 #define _RADIOLIB_BUILD_OPTIONS_H
 

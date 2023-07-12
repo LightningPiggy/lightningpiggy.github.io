@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/Adafruit-GFX-Library/Adafruit_SPITFT.cpp"
 /*!
 * @file Adafruit_SPITFT.cpp
 *

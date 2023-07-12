@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/TFT_eSPI/User_Setups/Setup52_LilyPi_ST7796.h"
 #define USER_SETUP_ID 52
 
 #define ST7796_DRIVER

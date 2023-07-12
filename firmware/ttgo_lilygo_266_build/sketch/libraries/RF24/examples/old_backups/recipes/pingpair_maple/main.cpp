@@ -1,4 +1,3 @@
-#line 1 "/home/user/wip-LightningPiggy/sources/lightning-piggy/LightningPiggy-Lilygo-266/libraries/RF24/examples/old_backups/recipes/pingpair_maple/main.cpp"
 #ifdef MAPLE_IDE
 
 #include <stdio.h>

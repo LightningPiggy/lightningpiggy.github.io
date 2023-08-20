@@ -71,6 +71,11 @@
         margin-top: 16px;
       }
 
+    .radios li {
+        list-style: none;
+        line-height: 2em;
+     }
+
     .form-container {
       display: flex;
       flex-wrap: wrap;
@@ -121,22 +126,35 @@
 			<input required type="text" id="lnbitskey" name="lnbitskey" placeholder="Find it under 'API docs' on your LNBits Wallet webpage."/><br/>
 		</div>
 	</div>
-      <p class="button-row" align="center">
-        <esp-web-install-button manifest="manifests/manifest_ttgo_lilygo_2.66_inch_epaper.json"></esp-web-install-button>
-      </p>
       <h2>Step 3</h2>
+      <p>Choose your Lightning Piggy flavor and click "START INSTALLATION":</p>
+      <ul class="radios">
+        <li>
+          <label><input type="radio" name="type" value="ttgo_lilygo_2.13_inch_epaper" checked/>Current hardware: LILYGO® T5 2.13 Inch E-Paper</label>
+        </li>
+        <li>
+          <label><input type="radio" name="type" value="ttgo_lilygo_2.66_inch_epaper" />Legacy hardware: LILYGO® T5 2.66 Inch E-Paper</label>
+        </li>
+        <li>
+          <label><input type="radio" name="type" value="ttgo_lilygo_2.66_inch_epaper_original" />Legacy hardware: LILYGO® T5 2.66 Inch E-Paper (original proof-of-concept software)</label>
+        </li>
+      </ul>
+      <p class="button-row" align="center">
+	 <esp-web-install-button manifest="manifests/manifest_ttgo_lilygo_2.13_inch_epaper.json"></esp-web-install-button>
+      </p>
+      <h2>Step 4</h2>
       <p>Tell your webbrowser which serial port to use. Usually it's the one with "CP210" because that's the type of USB-to-Serial chip that's in the Lightning Piggy.</p>
       <p>We've tested this with Google Chrome on Linux, MacOS and Windows so if you're using that setup, it should work!</p>
 	<img src="/static/select_serial_port.png" alt="Tell your webbrowser which serial port to use."/>
-      <h2>Step 4</h2>
+      <h2>Step 5</h2>
       <p>Click choose the "INSTALL" option and confirm that it will erase the data on your Lighning Piggy.</p>
 	<img src="/static/device_dashboard_install.png" alt="Device dashboard install"/>
 	<img src="/static/confirm_installation.png" alt="Confirm Installation"/>
-      <h2>Step 5</h2>
+      <h2>Step 6</h2>
       <p>Wait and watch the installation progress!</p>
 	<img src="/static/installing_70p.png" alt="Wait and watch the installation progress"/>
       <p>Don't unplug your Lightning Piggy while it's installing as that might lead to it not starting up anymore.</p>
-      <h2>Step 6</h2>
+      <h2>Step 7</h2>
       <p>You'll get confirmation when the installation is complete.</p>
 	<img src="/static/installation_complete.png" alt="Installation complete."/>
       <h2 id="troubleshooting">Troubleshooting</h2>
@@ -169,5 +187,14 @@
 	<div class="footer">
 	<a href="https://wwww.lightningpiggy.com">Lightning Piggy</a> &mdash; Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
     </div>
+  <script>
+      document.querySelectorAll('input[name="type"]').forEach(radio =>
+        radio.addEventListener("change", () => {
+          const button = document.querySelector('esp-web-install-button');
+          button.manifest = `./manifest_${radio.value}.json`;
+          button.classList.remove('invisible');
+        }
+      ));
+    </script>
   </body>
 </html>

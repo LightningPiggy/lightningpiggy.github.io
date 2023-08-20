@@ -1,0 +1,15 @@
+{
+  "name": "Legacy TTGO LilyGo 2.66 Inch ePaper - Original PoC Software",
+  "version": "v1.0.5",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "../firmware/ttgo_lilygo_2.66_inch_epaper_original/bootloader_qio_80m.bin", "offset": 4096 },
+        { "path": "../firmware/ttgo_lilygo_2.66_inch_epaper_original/LightningPiggy-Lilygo-266.ino.partitions.bin", "offset": 32768 },
+        { "path": "../firmware/ttgo_lilygo_2.66_inch_epaper_original/boot_app0.bin", "offset": 57344 },
+        { "path": "../firmware/ttgo_lilygo_2.66_inch_epaper_original/LightningPiggy-Lilygo-266.ino.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}

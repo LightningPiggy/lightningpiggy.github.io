@@ -1,14 +1,14 @@
 {
-  "name": "Current LilyGo T5 2.66 Inch ePaper",
-  "version": "v1.6.0",
+  "name": "Current LilyGo T5 2.13 inch ePaper",
+  "version": "v1.8.0",
   "builds": [
     {
       "chipFamily": "ESP32",
       "parts": [
         { "path": "../firmware/ttgo_lilygo_2.13_inch_epaper/bootloader_qio_80m.bin", "offset": 4096 },
-        { "path": "../firmware/ttgo_lilygo_2.13_inch_epaper/LightningPiggy-Lilygo-266.ino.partitions.bin", "offset": 32768 },
+        { "path": "../firmware/ttgo_lilygo_2.13_inch_epaper/Main.ino.partitions.bin", "offset": 32768 },
         { "path": "../firmware/ttgo_lilygo_2.13_inch_epaper/boot_app0.bin", "offset": 57344 },
-        { "path": "../firmware/ttgo_lilygo_2.13_inch_epaper/LightningPiggy-Lilygo-266.ino.bin", "offset": 65536 }
+        { "path": "../firmware/ttgo_lilygo_2.13_inch_epaper/Main.ino.bin", "offset": 65536 }
       ]
     }
   ]

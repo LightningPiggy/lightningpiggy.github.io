@@ -22736,7 +22736,7 @@
         });
     };
     const flash = async (onEvent, port, manifestPath, manifest, eraseFirst) => {
-        var _a, _b, _c, _d;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
         let build;
         let chipFamily;
         const fireStateEvent = (stateUpdate) => onEvent({
@@ -22830,11 +22830,25 @@
                     const lnbitshost = (_c = document.getElementById('lnbitshost')) === null || _c === void 0 ? void 0 : _c.value;
                     const lnbitskey = (_d = document.getElementById('lnbitskey')) === null || _d === void 0 ? void 0 : _d.value;
                     if (!wifissid || !wifikey || !lnbitshost || !lnbitskey)
-                        throw new Error('ERROR: empty values are not supported for the configuration!');
+                        throw new Error('ERROR: empty wifissid, wifikey, lnbitshost or lnbitskey are not supported for the configuration!');
+                    const fiatcurrency = (_e = document.getElementById('fiatcurrency')) === null || _e === void 0 ? void 0 : _e.value;
+                    const timezone = (_f = document.getElementById('timezone')) === null || _f === void 0 ? void 0 : _f.value;
+                    const locale = (_g = document.getElementById('locale')) === null || _g === void 0 ? void 0 : _g.value;
+                    const thousands = (_h = document.getElementById('thousands')) === null || _h === void 0 ? void 0 : _h.value;
+                    const decimals = (_j = document.getElementById('decimals')) === null || _j === void 0 ? void 0 : _j.value;
+                    const bootsloganprelude = (_k = document.getElementById('bootsloganprelude')) === null || _k === void 0 ? void 0 : _k.value;
+                    const showbootslogan = (_l = document.getElementById('showbootslogan')) === null || _l === void 0 ? void 0 : _l.value;
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID", wifissid);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY", wifikey);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST", lnbitshost);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYLNBITSKEY_REPLACETHISBYLNBITSKEY_REPLACETHISBYLNBITSKEY", lnbitskey);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYFIATCURRENCY_REPLACETHISBYFIATCURRENCY_REPLACETHISBYFIATCURRENCY", fiatcurrency);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYTIMEZONE_REPLACETHISBYTIMEZONE_REPLACETHISBYTIMEZONE", timezone);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYLOCALE_REPLACETHISBYLOCALE_REPLACETHISBYLOCALE", locale);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYTHOUSANDSSEPARATOR_REPLACETHISBYTHOUSANDSSEPARATOR_REPLACETHISBYTHOUSANDSSEPARATOR", thousands);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYDECIMALSEPARATOR_REPLACETHISBYDECIMALSEPARATOR_REPLACETHISBYDECIMALSEPARATOR", decimals);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYBOOTSLOGANPRELUDE_REPLACETHISBYBOOTSLOGANPRELUDE_REPLACETHISBYBOOTSLOGANPRELUDE", bootsloganprelude);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYSHOWBOOTSLOGAN_REPLACETHISBYSHOWBOOTSLOGAN_REPLACETHISBYSHOWBOOTSLOGAN", showbootslogan);
                     console.log("Firmware length after customization (should match before): " + data.length + " bytes.");
                     // Dump it to the console for inspection:
                     var encodedStringBtoA = btoa(data);

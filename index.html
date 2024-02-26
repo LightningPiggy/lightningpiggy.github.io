@@ -32,7 +32,7 @@
 	color: var(--color-primary-text);
         padding: 0;
         margin: 0;
-	background-color: #EEE;
+        background-color: #EEE;
       }
       .content {
         max-width: 800px;
@@ -119,22 +119,42 @@
 			<label for="wifikey">Wireless Network Password</label>
 			<label for="lnbitshost">LNBits Server Name</label>
 			<label for="lnbitskey">LNBits Invoice/Ready Key</label>
+			<label for="fiatcurrency">Fiat currency</label>
+			<label for="timezone">Timezone</label>
+			<label for="locale">Language (locale)</label>
+			<label for="thousands">Thousands separator</label>
+			<label for="decimals">Decimal separator</label>
+			<label for="showbootslogan">Slow boot slogan</label>
+			<label for="bootsloganprelude">Boot slogan prelude</label>
 		</div>
 		<div class="form-column right">
 			<input required type="text" id="wifissid" name="wifissid" placeholder="Wifi SSID"/><br/>
 			<input required type="text" id="wifikey" name="wifikey" placeholder="Wifi Key"/><br/>
 			<input required type="text" id="lnbitshost" name="lnbitshost" placeholder="legend.lnbits.com"/><br/>
 			<input required type="text" id="lnbitskey" name="lnbitskey" placeholder="Find it under 'API docs' on your LNBits Wallet webpage."/><br/>
+			<input type="text" id="fiatcurrency" name="fiatcurrency" placeholder="Example: USD, EUR, DKK. Leave empty not to show dirty fiat."/><br/>
+			<input type="text" id="timezone" name="timezone" placeholder="Example: America/New_York, Africa/Johannesburg, Europe/Copenhagen. Leave empty not to show last update time. See http://worldtimeapi.org/timezones"/><br/>
+			<input type="text" id="locale" name="locale" placeholder="Example: en, en_US, nl, nl_BE. Leave empty for default. Use the language codes from https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes"/><br/>
+			<input type="text" id="thousands" name="thousands" placeholder="Example: . or , or ' '. Leave empty for default."/><br/>
+			<input type="text" id="decimals" name="decimals" placeholder="Example: . or , or ' '. Leave empty for default."/><br/>
+			<input type="text" id="showbootslogan" name="showbootslogan" placeholder="Slow boot slogan? Set to YES if you want to see a slogan at boot."/><br/>
+			<input type="text" id="bootsloganprelude" name="bootsloganprelude" placeholder="Boot slogan prelude. Example: 'Some wisdom from your favorite uncle:'. Leave empty for none."/><br/>
 		</div>
 	</div>
       <h2>Step 3</h2>
       <p>Choose your Lightning Piggy flavor and click "START INSTALLATION":</p>
       <ul class="radios">
         <li>
-          <label><input type="radio" name="type" value="ttgo_lilygo_2.13_inch_epaper" checked/>Current hardware: LILYGO® T5 2.13 Inch E-Paper (latest software)</label>
+          <label><input type="radio" name="type" value="ttgo_lilygo_2.13_inch_epaper_latest" checked/>Current hardware: LILYGO® T5 2.13 Inch E-Paper (latest release)</label>
         </li>
         <li>
-          <label><input type="radio" name="type" value="ttgo_lilygo_2.66_inch_epaper" />Legacy hardware: LILYGO® T5 2.66 Inch E-Paper (latest software)</label>
+          <label><input type="radio" name="type" value="ttgo_lilygo_2.13_inch_epaper"/>Current hardware: LILYGO® T5 2.13 Inch E-Paper (older release)</label>
+        </li>
+        <li>
+          <label><input type="radio" name="type" value="ttgo_lilygo_2.66_inch_epaper_latest" />Legacy hardware: LILYGO® T5 2.66 Inch E-Paper (latest release)</label>
+        </li>
+        <li>
+          <label><input type="radio" name="type" value="ttgo_lilygo_2.66_inch_epaper" />Legacy hardware: LILYGO® T5 2.66 Inch E-Paper (older release)</label>
         </li>
         <li>
           <label><input type="radio" name="type" value="ttgo_lilygo_2.66_inch_epaper_original" />Legacy hardware: LILYGO® T5 2.66 Inch E-Paper (original proof-of-concept software)</label>

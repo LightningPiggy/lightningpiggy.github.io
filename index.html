@@ -80,7 +80,7 @@
     .form-container {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 3em;
+      margin-top: 1em;
     }
 
     .form-column.left {
@@ -99,6 +99,10 @@
       width: 100%;
       margin-bottom: 1em;
     }
+
+    input.required.notgood {
+      border: solid 2px #ff0000;
+    }
     </style>
     <script type="module" src="/dist/webumd/install-button.js"></script>
   </head>
@@ -111,7 +115,7 @@
       <p>Connect your Lightning Piggy to your PC with a USB cable.</p>
       <p>Make sure it's a regular cable that supports data and power, not just power, as we'll need to send data.</p>
       <p>The power light of the Lightning Piggy should turn on, indicting that it's started.</p>
-      <h2>Step 2</h2>
+      <h2>Step 2a (required)</h2>
       <p>Fill in the configuration details so your Lightning Piggy knows which network to connect to and which servers to use:</p>
 	<div class="form-container">
 		<div class="form-column left">
@@ -119,6 +123,18 @@
 			<label for="wifikey">Wireless Network Password</label>
 			<label for="lnbitshost">LNBits Server Name</label>
 			<label for="lnbitskey">LNBits Invoice/Ready Key</label>
+		</div>
+		<div class="form-column right">
+			<input class="required notgood" required type="text" id="wifissid" name="wifissid" placeholder="Wifi SSID"/><br/>
+			<input class="required notgood" required type="text" id="wifikey" name="wifikey" placeholder="Wifi Key"/><br/>
+			<input class="required notgood" required type="text" id="lnbitshost" name="lnbitshost" placeholder="legend.lnbits.com"/><br/>
+			<input class="required notgood" required type="text" id="lnbitskey" name="lnbitskey" placeholder="Find it under 'API docs' on your LNBits Wallet webpage."/><br/>
+		</div>
+	</div>
+      <h2>Step 2b (optional)</h2>
+      <p>Specify these options to enable more features:</p>
+	<div class="form-container">
+		<div class="form-column left">
 			<label for="fiatcurrency">Fiat currency</label>
 			<label for="timezone">Timezone</label>
 			<label for="locale">Language (locale)</label>
@@ -128,10 +144,6 @@
 			<label for="bootsloganprelude">Boot slogan prelude</label>
 		</div>
 		<div class="form-column right">
-			<input required type="text" id="wifissid" name="wifissid" placeholder="Wifi SSID"/><br/>
-			<input required type="text" id="wifikey" name="wifikey" placeholder="Wifi Key"/><br/>
-			<input required type="text" id="lnbitshost" name="lnbitshost" placeholder="legend.lnbits.com"/><br/>
-			<input required type="text" id="lnbitskey" name="lnbitskey" placeholder="Find it under 'API docs' on your LNBits Wallet webpage."/><br/>
 			<input type="text" id="fiatcurrency" name="fiatcurrency" placeholder="Example: USD, EUR, DKK. Leave empty not to show dirty fiat."/><br/>
 			<input type="text" id="timezone" name="timezone" placeholder="Example: America/New_York, Africa/Johannesburg, Europe/Copenhagen. Leave empty not to show last update time. See http://worldtimeapi.org/timezones"/><br/>
 			<input type="text" id="locale" name="locale" placeholder="Example: en, en_US, nl, nl_BE. Leave empty for default. Use the language codes from https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes"/><br/>
@@ -141,6 +153,7 @@
 			<input type="text" id="bootsloganprelude" name="bootsloganprelude" placeholder="Boot slogan prelude. Example: 'Some wisdom from your favorite uncle:'. Leave empty for none."/><br/>
 		</div>
 	</div>
+
       <h2>Step 3</h2>
       <p>Choose your Lightning Piggy flavor and click "START INSTALLATION":</p>
       <ul class="radios">
@@ -216,6 +229,31 @@
           button.classList.remove('invisible');
         }
       ));
+      Array.from(document.getElementsByClassName("required")).forEach(button => {
+        button.addEventListener("change", (event) => {
+	  let connectto = event.target.value;
+	  if (connectto != "") {
+	    button.classList.remove("notgood");
+	  } else {
+	    button.classList.add("notgood");
+	  }
+	  });
+      });
+      const button = document.querySelector('esp-web-install-button');
+      button.addEventListener("click", (event) => {
+	let allgood = true;
+        Array.from(document.getElementsByClassName("required")).forEach(button => {
+          let element = button.value;
+          allgood = allgood && (element != "");
+	});
+        if (allgood) {
+          //alert("allgood");
+          return true;
+        } else {
+	  alert("Please make sure you've filled in all required fields, otherwise the device won't work properly.");
+	  return false;
+        }
+      });
     </script>
   </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "name": "Current LilyGo T5 2.13 inch ePaper",
-  "version": "v2.0.0",
+  "version": "v2.1.1",
   "builds": [
     {
       "chipFamily": "ESP32",

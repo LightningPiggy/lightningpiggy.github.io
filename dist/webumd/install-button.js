@@ -22653,13 +22653,18 @@
     } (buffer));
 
     async function findAndReplaceInFirmware(firmwareBuffer, findString, replaceString) {
+        console.log("firmwareBuffer.length is " + firmwareBuffer.length + ", findString.length is " + findString.length + " and replaceString.length is " + replaceString.length);
         replaceString = replaceString.padEnd(findString.length, '\u0000');
+        console.log("after padding, replaceString.length is " + replaceString.length);
         let stringBuffer = firmwareBuffer.replace(findString, replaceString);
-        console.log("before Buffer.from");
+        console.log("after replacing, stringBuffer.length is " + stringBuffer.length);
         let replacedBuffer = buffer.Buffer.from(stringBuffer, 'binary');
-        console.log("after Buffer.from");
+        console.log("after Buffer.from, replacedBuffer.length is " + replacedBuffer.length);
         replacedBuffer = await fixFirmwareChecksums(replacedBuffer);
-        return replacedBuffer.toString('binary');
+        console.log("after fixFirmwareChecksums, replacedBuffer.length is " + replacedBuffer.length);
+        let string_to_return = replacedBuffer.toString('binary');
+        console.log("after toString(), string_to_return.length is " + string_to_return.length);
+        return string_to_return;
     }
     // fixFirmwareChecksums: given a firmware, fix the checksums
     async function fixFirmwareChecksums(toReplace) {
@@ -22714,7 +22719,7 @@
             console.log("WARNING: Adding SHA256 checksum is not needed and not supported!");
         }
         else {
-            console.log("Not adding sha256 checksum because there was none in the original file!");
+            console.log("Not adding sha256 checksum because there was none in the original file. This is normal.");
         }
         return newFirmware;
     }
@@ -22736,7 +22741,7 @@
         });
     };
     const flash = async (onEvent, port, manifestPath, manifest, eraseFirst) => {
-        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o;
         let build;
         let chipFamily;
         const fireStateEvent = (stateUpdate) => onEvent({
@@ -22838,6 +22843,8 @@
                     const decimals = (_j = document.getElementById('decimals')) === null || _j === void 0 ? void 0 : _j.value;
                     const bootsloganprelude = (_k = document.getElementById('bootsloganprelude')) === null || _k === void 0 ? void 0 : _k.value;
                     const showbootslogan = (_l = document.getElementById('showbootslogan')) === null || _l === void 0 ? void 0 : _l.value;
+                    const staticlnurlp = (_m = document.getElementById('staticlnurlp')) === null || _m === void 0 ? void 0 : _m.value;
+                    const balancebias = (_o = document.getElementById('balancebias')) === null || _o === void 0 ? void 0 : _o.value;
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID", wifissid);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY", wifikey);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST", lnbitshost);
@@ -22849,6 +22856,8 @@
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYDECIMALSEPARATOR_REPLACETHISBYDECIMALSEPARATOR_REPLACETHISBYDECIMALSEPARATOR", decimals);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYBOOTSLOGANPRELUDE_REPLACETHISBYBOOTSLOGANPRELUDE_REPLACETHISBYBOOTSLOGANPRELUDE", bootsloganprelude);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYSHOWBOOTSLOGAN_REPLACETHISBYSHOWBOOTSLOGAN_REPLACETHISBYSHOWBOOTSLOGAN", showbootslogan);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYSTATICLNURLPAYMENTSVALUESTRING_REPLACETHISBYSTATICLNURLPAYMENTSVALUESTRING_REPLACETHISBYSTATICLNURLPAYMENTSVALUESTRING", staticlnurlp);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYBALANCEBIAS_REPLACETHISBYBALANCEBIAS_REPLACETHISBYBALANCEBIAS", balancebias);
                     console.log("Firmware length after customization (should match before): " + data.length + " bytes.");
                     // Dump it to the console for inspection:
                     var encodedStringBtoA = btoa(data);
@@ -22861,6 +22870,8 @@
                 totalSize += data.length;
             }
             catch (err) {
+                console.error("Firmware customization got error:");
+                console.error(err);
                 fireStateEvent({
                     state: "error" /* FlashStateType.ERROR */,
                     message: err.message,
@@ -22925,6 +22936,8 @@
             });
         }
         catch (err) {
+            console.error("Firmware write failed:");
+            console.error(err);
             fireStateEvent({
                 state: "error" /* FlashStateType.ERROR */,
                 message: err.message,
@@ -23028,7 +23041,7 @@
   }
 `;
 
-    const version = "dev";
+    const version = "9.3.0";
 
     console.log(`ESP Web Tools ${version} by Nabu Casa; https://esphome.github.io/esp-web-tools/`);
     const ERROR_ICON = "⚠️";

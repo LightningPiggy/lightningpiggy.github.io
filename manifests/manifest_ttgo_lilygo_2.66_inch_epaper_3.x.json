@@ -1,6 +1,6 @@
 {
   "name": "Legacy LilyGo T5 2.66 inch ePaper",
-  "version": "v3.0.2",
+  "version": "v3.0.3",
   "builds": [
     {
       "chipFamily": "ESP32",

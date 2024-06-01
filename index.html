@@ -127,7 +127,7 @@
 		<div class="form-column right">
 			<input class="required notgood" required type="text" id="wifissid" name="wifissid" placeholder="Wifi SSID"/><br/>
 			<input class="required notgood" required type="text" id="wifikey" name="wifikey" placeholder="Wifi Key"/><br/>
-			<input class="required notgood" required type="text" id="lnbitshost" name="lnbitshost" placeholder="demo.lnbits.com" /><br/>
+			<input class="required notgood" required type="text" id="lnbitshost" name="lnbitshost" placeholder="demo.lnpiggy.com or demo.lnbits.com or your own LNBits server's hostname" value="demo.lnpiggy.com" /><br/>
 			<input class="required notgood" required type="text" id="lnbitskey" name="lnbitskey" placeholder="Find it under 'API docs' on your LNBits Wallet webpage."/><br/>
 		</div>
 	</div>
@@ -145,6 +145,7 @@
 			<label for="staticlnurlp">LNBits static LNURLp</label>
 			<label for="walletid">LNBits Wallet ID</label>
 			<label for="balancebias">Balance Bias</label>
+			<label for="lnbitskey">LNBits HTTPS Port</label>
 		</div>
 		<div class="form-column right">
 			<input type="text" id="fiatcurrency" name="fiatcurrency" placeholder="Example: USD, EUR, DKK, JPY, GBP, CNY, RMB,... Leave empty not to show dirty fiat ;-)"/><br/>
@@ -157,6 +158,7 @@
 			<input type="text" id="staticlnurlp" name="staticlnurlp" placeholder="Example: LNURL1DP68... Use faster fixed LNURLp (= reusable payment string) instead of fetching the first one from the LNBits backend."/><br/>
 			<input type="text" id="walletid" name="walletid" placeholder="Example: 316b77f... Use faster fixed wallet ID instead of finding it in the incoming payments or in the LNURLp list of the LNBits backend."/><br/>
 			<input type="text" id="balancebias" name="balancebias" placeholder="Number of satoshis to add to the balance to account for other wallets or on-chain funds. May be negative."/><br/>
+			<input type="text" id="lnbitsport" name="lnbitsport" placeholder="If LNBits is not on the default port 443, specify the HTTPS/SSL port here."/><br/>
 		</div>
 	</div>
 
@@ -218,7 +220,7 @@
 		<p>If you're getting weird Javascript errors such as 'Trying to access beyond buffer length', it might be caused by your Adblocker or other browser extensions messing with the installer's Javascript.</p>
 		<p>Please try disabling them for this page and see if that helps.</p>
 	<h3>Typical configuration mistakes</h3>
-		<p>For the hostname (such as demo.lnbits.com) fill in only the hostname itself, not https://demo.lnbits.com/</p>
+		<p>For the hostname (such as demo.lnpiggy.com) fill in only the hostname itself, not https://demo.lnpiggy.com/</p>
 		<p>Most configurations are case-sensitive, so for the boot slogan use YES and not Yes or yes. Same for the timezone, for the currency etc.</p>
 	<h3>Reporting issues</h3>
 		<p>Of course, it's possible that your specific setup causes an issue or there's a bug somewhere that prevents you from installing your Lightning Piggy.</p>

@@ -22741,7 +22741,7 @@
         });
     };
     const flash = async (onEvent, port, manifestPath, manifest, eraseFirst) => {
-        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
         let build;
         let chipFamily;
         const fireStateEvent = (stateUpdate) => onEvent({
@@ -22846,6 +22846,7 @@
                     const staticlnurlp = (_m = document.getElementById('staticlnurlp')) === null || _m === void 0 ? void 0 : _m.value;
                     const walletid = (_o = document.getElementById('walletid')) === null || _o === void 0 ? void 0 : _o.value;
                     const balancebias = (_p = document.getElementById('balancebias')) === null || _p === void 0 ? void 0 : _p.value;
+                    const lnbitsport = (_q = document.getElementById('lnbitsport')) === null || _q === void 0 ? void 0 : _q.value;
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID", wifissid);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY", wifikey);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST", lnbitshost);
@@ -22860,6 +22861,7 @@
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYSTATICLNURLPAYMENTSVALUESTRING_REPLACETHISBYSTATICLNURLPAYMENTSVALUESTRING_REPLACETHISBYSTATICLNURLPAYMENTSVALUESTRING", staticlnurlp);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWALLETID_REPLACETHISBYWALLETID_REPLACETHISBYWALLETID", walletid);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYBALANCEBIAS_REPLACETHISBYBALANCEBIAS_REPLACETHISBYBALANCEBIAS", balancebias);
+                    data = await findAndReplaceInFirmware(data, "REPLACETHISBYLNBITSPORT_REPLACETHISBYLNBITSPORT_REPLACETHISBYLNBITSPORT", lnbitsport);
                     console.log("Firmware length after customization (should match before): " + data.length + " bytes.");
                     // Dump it to the console for inspection:
                     var encodedStringBtoA = btoa(data);

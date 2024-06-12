@@ -237,15 +237,16 @@
           button.classList.remove('invisible');
         }
       ));
-      Array.from(document.getElementsByClassName("required")).forEach(button => {
-        button.addEventListener("change", (event) => {
+      Array.from(document.getElementsByClassName("required")).forEach(requiredInput => {
+        if (requiredInput.value != "") requiredInput.classList.remove("notgood");
+        requiredInput.addEventListener("change", (event) => {
 	  let connectto = event.target.value;
 	  if (connectto != "") {
-	    button.classList.remove("notgood");
+	    requiredInput.classList.remove("notgood");
 	  } else {
-	    button.classList.add("notgood");
+	    requiredInput.classList.add("notgood");
 	  }
-	  });
+	});
       });
       const button = document.querySelector('esp-web-install-button');
       button.addEventListener("click", (event) => {

@@ -22834,8 +22834,7 @@
                     const wifikey = (_b = document.getElementById('wifikey')) === null || _b === void 0 ? void 0 : _b.value;
                     const lnbitshost = (_c = document.getElementById('lnbitshost')) === null || _c === void 0 ? void 0 : _c.value;
                     const lnbitskey = (_d = document.getElementById('lnbitskey')) === null || _d === void 0 ? void 0 : _d.value;
-                    if (!wifissid || !wifikey || !lnbitshost || !lnbitskey)
-                        throw new Error('ERROR: empty wifissid, wifikey, lnbitshost or lnbitskey are not supported for the configuration!');
+                    //if (!wifissid || !wifikey || !lnbitshost || !lnbitskey) throw new Error('ERROR: empty wifissid, wifikey, lnbitshost or lnbitskey are not supported for the configuration!');
                     const fiatcurrency = (_e = document.getElementById('fiatcurrency')) === null || _e === void 0 ? void 0 : _e.value;
                     const timezone = (_f = document.getElementById('timezone')) === null || _f === void 0 ? void 0 : _f.value;
                     const locale = (_g = document.getElementById('locale')) === null || _g === void 0 ? void 0 : _g.value;

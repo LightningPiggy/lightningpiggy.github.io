@@ -23177,7 +23177,8 @@
                     this._state = "ASK_ERASE";
                 }
                 else {
-                    this._startInstall(true);
+                    //this._startInstall(true);
+                    this._startInstall(false);
                 }
             }}
                 ></ewt-button>

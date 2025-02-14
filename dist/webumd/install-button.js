@@ -23284,7 +23284,8 @@
             }
             else {
                 // Default is to erase a device that does not support Improv Serial
-                this._startInstall(true);
+                //this._startInstall(true);
+                this._startInstall(false); // don't erase existing config
             }
         }}
           ></ewt-button>

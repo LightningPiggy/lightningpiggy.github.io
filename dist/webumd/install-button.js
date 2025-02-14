@@ -22741,7 +22741,7 @@
         });
     };
     const flash = async (onEvent, port, manifestPath, manifest, eraseFirst) => {
-        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p;
         let build;
         let chipFamily;
         const fireStateEvent = (stateUpdate) => onEvent({
@@ -22844,8 +22844,8 @@
                     const bootsloganprelude = (_k = document.getElementById('bootsloganprelude')) === null || _k === void 0 ? void 0 : _k.value;
                     const showbootslogan = (_l = document.getElementById('showbootslogan')) === null || _l === void 0 ? void 0 : _l.value;
                     const staticlnurlp = (_m = document.getElementById('staticlnurlp')) === null || _m === void 0 ? void 0 : _m.value;
-                    const balancebias = (_p = document.getElementById('balancebias')) === null || _p === void 0 ? void 0 : _p.value;
-                    const lnbitsport = (_q = document.getElementById('lnbitsport')) === null || _q === void 0 ? void 0 : _q.value;
+                    const balancebias = (_o = document.getElementById('balancebias')) === null || _o === void 0 ? void 0 : _o.value;
+                    const lnbitsport = (_p = document.getElementById('lnbitsport')) === null || _p === void 0 ? void 0 : _p.value;
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID_REPLACETHISBYWIFISSID", wifissid);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY_REPLACETHISBYWIFIKEY", wifikey);
                     data = await findAndReplaceInFirmware(data, "REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST_REPLACETHISBYLNBITSHOST", lnbitshost);

@@ -275,47 +275,42 @@
       });
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll("h2.step2a, h2.step2b").forEach(header => {
-        const icon = document.createElement("span");
-        icon.textContent = " [+] ";
-        icon.style.marginLeft = "10px";
-        icon.style.fontWeight = "bold";
-        header.prepend(icon);
-        
-        const contentWrapper = document.createElement("div");
-        contentWrapper.classList.add("toggle-content");
-        
-        let nextElement = header.nextElementSibling;
-        while (nextElement && !nextElement.matches("h2.step2a, h2.step2b, h2.step3")) {
-            const temp = nextElement.nextElementSibling;
-            contentWrapper.appendChild(nextElement);
-            nextElement = temp;
-        }
-        
-        header.after(contentWrapper);
-        contentWrapper.style.display = "none";
-        
-        header.style.cursor = "pointer";
-        header.style.padding = "10px";
-        header.style.border = "1px solid #ccc";
-        header.style.borderRadius = "5px";
-        header.style.background = "rgb(255, 201, 201)";
-        //header.style.background = "#f9f9f9";
-        header.style.transition = "background 0.3s";
-        
-        //header.addEventListener("mouseenter", () => header.style.background = "#e0e0e0");
-        //header.addEventListener("mouseleave", () => header.style.background = "#f9f9f9");
-        header.addEventListener("mouseenter", () => header.style.background = "rgb(255, 134, 134)");
-        header.addEventListener("mouseleave", () => header.style.background = "rgb(255, 201, 201)");
-        
-        header.addEventListener("click", function () {
-            const isVisible = contentWrapper.style.display === "block";
-            contentWrapper.style.display = isVisible ? "none" : "block";
-            icon.textContent = isVisible ? " [+] " : " [-] ";
-        });
-    });
-});
+      document.querySelectorAll("h2.step2a, h2.step2b").forEach(header => {
+          const icon = document.createElement("span");
+          icon.textContent = " [+] ";
+          icon.style.marginLeft = "10px";
+          icon.style.fontWeight = "bold";
+          header.prepend(icon);
+
+          const contentWrapper = document.createElement("div");
+          contentWrapper.classList.add("toggle-content");
+
+          let nextElement = header.nextElementSibling;
+          while (nextElement && !nextElement.matches("h2.step2a, h2.step2b, h2.step3")) {
+              const temp = nextElement.nextElementSibling;
+              contentWrapper.appendChild(nextElement);
+              nextElement = temp;
+          }
+
+          header.after(contentWrapper);
+          contentWrapper.style.display = "none";
+
+          header.style.cursor = "pointer";
+          header.style.padding = "10px";
+          header.style.border = "1px solid #ccc";
+          header.style.borderRadius = "5px";
+          header.style.background = "rgb(255, 201, 201)";
+          header.style.transition = "background 0.3s";
+
+          header.addEventListener("mouseenter", () => header.style.background = "rgb(255, 134, 134)");
+          header.addEventListener("mouseleave", () => header.style.background = "rgb(255, 201, 201)");
+
+          header.addEventListener("click", function () {
+              const isVisible = contentWrapper.style.display === "block";
+              contentWrapper.style.display = isVisible ? "none" : "block";
+              icon.textContent = isVisible ? " [+] " : " [-] ";
+          });
+      });
 
     </script>
   </body>

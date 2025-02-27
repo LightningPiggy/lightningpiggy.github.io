@@ -115,7 +115,7 @@
       <p>Connect your Lightning Piggy to your PC with a USB cable.</p>
       <p>Make sure it's a regular cable that supports data and power, not just power, as we'll need to send data.</p>
       <p>The power light of the Lightning Piggy should turn on, indicting that it's started.</p>
-      <h2>Step 2a (optional if you install version 5.x!)</h2>
+      <h2 class="step2a">Step 2a (optional if you install version 5.x)</h2>
       <p>Fill in the configuration details so your Lightning Piggy knows which network to connect to and which servers to use.</p>
       <p>If you install version 5.x or later, you can leave it empty, and the device will start an Access Point for configuration, allowing you to specify the configuration in the field.</p>
 	<div class="form-container">
@@ -132,7 +132,7 @@
 			<input class="required notgood" required type="text" id="lnbitskey" name="lnbitskey" placeholder="Find it under 'API docs' on your LNBits Wallet webpage."/><br/>
 		</div>
 	</div>
-      <h2>Step 2b (optional)</h2>
+      <h2 class="step2b">Step 2b (always optional)</h2>
       <p>Specify these options to enable more features:</p>
 	<div class="form-container">
 		<div class="form-column left">
@@ -161,7 +161,7 @@
 		</div>
 	</div>
 
-      <h2>Step 3</h2>
+      <h2 class="step3">Step 3</h2>
       <p>Choose your Lightning Piggy flavor and click "START INSTALLATION":</p>
       <ul class="radios">
         <li><label><input type="radio" name="type" value="ttgo_lilygo_2.13_and_2.66_inch_epaper_5.x" checked/>Firmware v5.x for both LILYGO® T5 2.13 and 2.66 Inch E-Paper</label></li>
@@ -273,6 +273,50 @@
 	  return false;
         }
       });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("h2.step2a, h2.step2b").forEach(header => {
+        const icon = document.createElement("span");
+        icon.textContent = " [+] ";
+        icon.style.marginLeft = "10px";
+        icon.style.fontWeight = "bold";
+        header.prepend(icon);
+        
+        const contentWrapper = document.createElement("div");
+        contentWrapper.classList.add("toggle-content");
+        
+        let nextElement = header.nextElementSibling;
+        while (nextElement && !nextElement.matches("h2.step2a, h2.step2b, h2.step3")) {
+            const temp = nextElement.nextElementSibling;
+            contentWrapper.appendChild(nextElement);
+            nextElement = temp;
+        }
+        
+        header.after(contentWrapper);
+        contentWrapper.style.display = "none";
+        
+        header.style.cursor = "pointer";
+        header.style.padding = "10px";
+        header.style.border = "1px solid #ccc";
+        header.style.borderRadius = "5px";
+        header.style.background = "rgb(255, 201, 201)";
+        //header.style.background = "#f9f9f9";
+        header.style.transition = "background 0.3s";
+        
+        //header.addEventListener("mouseenter", () => header.style.background = "#e0e0e0");
+        //header.addEventListener("mouseleave", () => header.style.background = "#f9f9f9");
+        header.addEventListener("mouseenter", () => header.style.background = "rgb(255, 134, 134)");
+        header.addEventListener("mouseleave", () => header.style.background = "rgb(255, 201, 201)");
+        
+        header.addEventListener("click", function () {
+            const isVisible = contentWrapper.style.display === "block";
+            contentWrapper.style.display = isVisible ? "none" : "block";
+            icon.textContent = isVisible ? " [+] " : " [-] ";
+        });
+    });
+});
+
     </script>
   </body>
 </html>

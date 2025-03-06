@@ -6,10 +6,10 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_5.x/Main.ino.bootloader.bin", "offset": 4096 },
-        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_5.x/Main.ino.partitions.bin", "offset": 32768 },
-        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_5.x/boot_app0.bin", "offset": 57344 },
-        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_5.x/Main.ino.bin", "offset": 65536 }
+        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_6.x/Main.ino.bootloader.bin", "offset": 4096 },
+        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_6.x/Main.ino.partitions.bin", "offset": 32768 },
+        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_6.x/boot_app0.bin", "offset": 57344 },
+        { "path": "../firmware/ttgo_lilygo_2.13_and_2.66_inch_epaper_6.x/Main.ino.bin", "offset": 65536 }
       ]
     }
   ]

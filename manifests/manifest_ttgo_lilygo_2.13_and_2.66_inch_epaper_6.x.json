@@ -1,6 +1,6 @@
 {
   "name": "LilyGo T5 2.13 and 2.66 inch ePaper",
-  "version": "v6.1.2",
+  "version": "v6.1.3",
   "new_install_prompt_erase": true,
   "builds": [
     {

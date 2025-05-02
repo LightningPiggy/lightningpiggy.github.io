@@ -1,0 +1,13 @@
+{
+  "name": "Waveshare ESP32-S3 2-inch Capacitive Touch",
+  "version": "0.0.1",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "../firmware/waveshare_esp32-s3-touch-lcd-2/lvgl_micropy_ESP32_GENERIC_S3-SPIRAM_OCT-16.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

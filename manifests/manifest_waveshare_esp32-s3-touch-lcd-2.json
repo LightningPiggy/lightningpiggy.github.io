@@ -1,6 +1,6 @@
 {
   "name": "Waveshare ESP32-S3 2-inch Capacitive Touch",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "new_install_prompt_erase": true,
   "builds": [
     {
